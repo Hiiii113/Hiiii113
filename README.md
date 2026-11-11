@@ -33,3 +33,10 @@
 </p>
 
 **Agent**：Tool Loop · Sub-Agent · MCP · Memory · Skill　**后端**：Java 21 · Spring Boot · MyBatis-Plus · MySQL · Redis　**AI**：Spring AI · DeepSeek / OpenAI 兼容 · 向量检索
+
+## 🐍 Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hiiii113/Hiiii113/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Hiiii113/Hiiii113/output/github-snake.svg" alt="Contribution snake" />
+</picture>
