@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=2F81F7&center=true&vCenter=true&width=620&lines=Backend+engineer+building+AI+agents;Java+%C2%B7+Go+%C2%B7+MCP+%C2%B7+RAG;Tool+Calling+%C2%B7+Context+Compaction" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=2F81F7&center=true&vCenter=true&width=620&lines=Java+backend+%2B+AI+agents;Agent+Harness+%C2%B7+Tool+Loop+%C2%B7+Sandbox;Java+%C2%B7+Go+%C2%B7+Spring+AI+%C2%B7+MCP" alt="Typing SVG" />
 
-**Java / Go 后端，方向是 AI Agent**：从零写一个编码 Agent，把模型能力接进真实业务，顺手修 upstream 的坑。
+**Java 后端 + AI Agent**：做团队协作式的云端 Agent 工作台——自研工具循环、Docker 沙箱里跑命令、多层记忆贯穿群聊与项目。
 
 </div>
 
 ## 🔭 Focus
 
-- **从零实现编码 Agent**：Go 单二进制 CLI，Anthropic / OpenAI-compatible 双协议后端，文件读写、精确编辑、正则搜索、Shell、网页读取全套工具
-- **Agent 的边界处理**：权限确认、Plan Mode、上下文压缩、会话恢复，长任务不会一次就把窗口烧完
-- **可扩展性**：MCP JSON-RPC 2.0 stdio 接入外部工具，另有项目记忆、Skills、子 Agent
-- **Java 后端**：Spring Boot 业务与权限、WebSocket 实时同步、缓存与数据一致性
-- **Spring AI 落地**：智能路由分发闲聊 / 摘要 / 检索，AI 自主调用工具读用户自己的笔记，向量语义检索可回溯到原文
+- **Agent Harness**：自研工具循环，默认 30 轮、单步并行多个工具，可后台派生子 Agent，运行中可取消
+- **沙箱执行**：用户命令在临时 Docker 容器内执行，带核数 / 内存配额与空闲回收，项目数据卷持久化工作区与 Git
+- **多层记忆与知识**：项目共享记忆、群记忆、Agent 私有记忆分开存，配合群聊历史检索、Skill 与附件
+- **编码 Agent（Go）**：从零写命令行 Agent，Anthropic / OpenAI-compatible 双协议后端，权限确认、Plan Mode、上下文压缩、MCP 工具扩展
+- **Java 后端**：Spring Boot 单体同时承载 IM、Agent 调度与沙箱管理，MySQL / Redis 支撑状态，SSE 续传与 WebSocket 实时推送
 
 ## 🧩 Featured Projects
 
@@ -32,11 +32,4 @@
   <img src="https://skillicons.dev/icons?i=java,go,spring,mysql,redis,docker,git,linux,rust&perline=9" alt="Tech stack" />
 </p>
 
-**Agent**：Tool Calling · MCP · Context Compaction · Skill　**后端**：Spring Boot · MyBatis-Plus · Sa-Token · WebSocket　**AI**：Spring AI · 向量检索 · 模型路由
-
-## 🐍 Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hiiii113/Hiiii113/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Hiiii113/Hiiii113/output/github-snake.svg" alt="Contribution snake" />
-</picture>
+**Agent**：Tool Loop · Sub-Agent · MCP · Memory · Skill　**后端**：Java 21 · Spring Boot · MyBatis-Plus · MySQL · Redis　**AI**：Spring AI · DeepSeek / OpenAI 兼容 · 向量检索
